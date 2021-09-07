@@ -111,3 +111,16 @@ header{
     position: fixed;
     top: 0;
 }
+.modal{
+    width: 90%;
+    height: 90%;
+    background-color:white;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.modal .close-modal{
+    color: black;
+    position: absolute;
+    right: 0;
+}
