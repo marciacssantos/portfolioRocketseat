@@ -102,7 +102,7 @@ header{
     text-align: center;
 }
 
-/*=== MODAL OVERLAY ===*/
+/*=== MODAL ===*/
 
 .modal-overlay{
     background-color:rgba(0,0,0,0.7);
@@ -110,11 +110,13 @@ header{
     height: 100%;
     position: fixed;
     top: 0;
+    opacity: 0;
+    visibility: hidden;
 }
 .modal{
+    background-color:white;
     width: 90%;
     height: 90%;
-    background-color:white;
     margin: 5vh auto;
     position: relative;
 }
@@ -125,4 +127,11 @@ header{
     right: 8px;
     top:8px;
     cursor: pointer;
+}
+
+/*=== MODAL ACTIVE ===*/
+
+.modal-overlay.active{
+    opacity: 1;
+    visibility: visible;
 }
