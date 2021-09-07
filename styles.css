@@ -18,10 +18,10 @@ header{
     border-bottom: 1px solid #333;
     background:rgba(0,0,0,0.1)
 }
-header div{
+.links{
     text-align: center;
 }
-header div a{
+.links a{
     color: white;
     font-size: 18px;
     line-height: 28px;
@@ -29,9 +29,12 @@ header div a{
     text-decoration: none;
 }
 
-header div a:hover{
+.links a:hover{
     color: var(--color-green);
     transition: color 200ms;
+}
+#links-footer a{
+    border-bottom: 1px solid var(--color-green);
 }
 
 #wrapper{
@@ -43,6 +46,7 @@ header div a:hover{
     border-radius: 50%;
     border: solid 5px var(--color-green);
     margin-bottom: 32px;
+    height: 300px;
 }
 
 #wrapper h1{
